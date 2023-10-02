@@ -10,14 +10,12 @@ A REGEX is a regular expression that searches for matchin values and patterns wi
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
 - [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
 - [Boundaries](#boundaries)
-- [Back-references](#back-references)
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
@@ -29,8 +27,6 @@ The example for a Regex ^ anchor indicates the beginning of the string. The doll
 ### Quantifiers
 
 The example REGEX inlcudes the following quantifiers: + which is used to match one or more of the preceding token {2,6} which matches the specified quantity of the previous token, in this case between 2 and 6 characters. Alternatives would be {2,6}, which looks for 2 digits exactly, or {2,4} which looks for 2 or more characters.
-
-### OR Operator
 
 ### Character Classes
 
@@ -54,12 +50,16 @@ An example of bracket expressions: in the expression [abc], it matches any chara
 
 ### Greedy and Lazy Match
 
+In the given code for matching an email, there isn't a greedy or lazy match included.
+
 ### Boundaries
 
-### Back-references
+The metacharacter \b is an anchor like the caret and the dollar sign. It matches at a position that is called a “word boundary”. This match is zero-length.
 
 ### Look-ahead and Look-behind
 
+Lookahead and lookbehind, collectively called “lookaround”, are zero-length assertions just like the start and end of line, and start and end of word anchors explained earlier in this tutorial. The difference is that lookaround actually matches characters, but then gives up the match, returning only the result: match or no match. That is why they are called “assertions”. They do not consume characters in the string, but only assert whether a match is possible or not. Lookaround allows you to create regular expressions that are impossible to create without them, or that would get very longwinded without them.
+
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Here is a link to our github: https://github.com/aaronmko/regex-tutorial
