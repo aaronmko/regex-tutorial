@@ -44,7 +44,13 @@ The example REGEX inlcudes the following flags: g which stands for global search
 
 ### Grouping and Capturing
 
+the examle inlcudes the following group: ([a-z0-9_.-]+), this expression includes + which means we match at least one or more of any characters in the square brackets [a-z0-9_.-]. a-z is lowercase letters from a to z, 0-9 is numbers from 0 to 9, _ is underscore, . is period, and - is hyphen.
+
 ### Bracket Expressions
+
+Bracket expressions are used to specify characters to match, they are enclosed in square brackets[]. Our regex has three bracket expressions: ([a-z0-9_.-]+), ([\da-z.-]+), and ([a-z.]{2,6}).
+
+An example of bracket expressions: in the expression [abc], it matches any character in the brackets; either a or b or c.
 
 ### Greedy and Lazy Match
 
