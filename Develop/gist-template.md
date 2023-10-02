@@ -1,10 +1,10 @@
-# Title (replace with your title)
+# Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+A REGEX is a regular expression that searches for matchin values and patterns within a strin. Below is an example for the string to match the general makeup of an email address.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+/^([a-z0-9_.-]+)@([\da-z.-]+).([a-z.]{2,6})$/ This regex tutorial will explore the regex of matching an email address. For this regex, each component has a specific responsibility to make sure or verify that the user enters an email address in the correct format which in this case begins with characters followed by @ symbol and, lastly, the domain.
 
 ## Table of Contents
 
