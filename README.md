@@ -48,3 +48,17 @@ You can choose one of the following regular expressions or you can choose one th
 * Matching a URL &ndash; `/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/`
 
 * Matching an HTML Tag &ndash; `/^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/`
+
+## Getting Started
+
+Instead of creating a repository, you’ll publish a GitHub gist. GitHub describes a gist as a simple way to share code snippets with others. It’s also an ideal way to demonstrate a technique, teach a principle, or show off a solution. It functions just like a repository, and you’ll use Markdown to create it, just as you do with your READMEs. Gists can include code, images, links, and anything else you can include in a README.
+
+> Note:Make sure to create a public gist.
+
+The starter code is a template with a title, introductory paragraph, summary, and table of contents. The table of contents should link to sections of the tutorial that describe the functionality of each component in the regex. Be sure to rename the template to a unique name that describes your tutorial.
+
+> Note: The regular expression that you choose may not include all of the components outlined in the starter code. After you’ve finished your walkthrough, you can remove any sections that you didn’t use.
+
+Each section that describes a component should include more than just one sentence explaining what it does. It should also include a code snippet of that particular component and some examples that meet the requirements of that component.
+
+> Important: Make revisions to your gist in the GitHub gist UI. This will create a revision history that graders can use to verify that the tutorial content is yours.
