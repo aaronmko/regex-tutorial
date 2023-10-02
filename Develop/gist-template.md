@@ -24,7 +24,11 @@ A REGEX is a regular expression that searches for matchin values and patterns wi
 
 ### Anchors
 
+The example for a Regex ^ anchor indicates the beginning of the string. The dollar $ anchor indicates the end of the string. In our given regex
+
 ### Quantifiers
+
+The example REGEX inlcudes the following quantifiers: + which is used to match one or more of the preceding token {2,6} which matches the specified quantity of the previous token, in this case between 2 and 6 characters. Alternatives would be {2,6}, which looks for 2 digits exactly, or {2,4} which looks for 2 or more characters.
 
 ### OR Operator
 
