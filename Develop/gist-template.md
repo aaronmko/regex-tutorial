@@ -40,6 +40,8 @@ An example of .: in the expression a.c, it matches a.c. The . is taken literally
 
 ### Flags
 
+The example REGEX inlcudes the following flags: g which stands for global search
+
 ### Grouping and Capturing
 
 ### Bracket Expressions
