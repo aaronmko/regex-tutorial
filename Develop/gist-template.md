@@ -34,6 +34,10 @@ The example REGEX inlcudes the following quantifiers: + which is used to match o
 
 ### Character Classes
 
+Character Classes distingush specific kinds of characters from a certain set. Our regex has character classes: . and \d. The . means any character except a line break. By placing a backslash \ in front of the ., it's "escaping" the character and is taken literally. The \d matches any single digit equivalent to [0-9].
+
+An example of .: in the expression a.c, it matches a.c. The . is taken literally - as period.
+
 ### Flags
 
 ### Grouping and Capturing
