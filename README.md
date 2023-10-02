@@ -7,3 +7,8 @@ Developers write code, but they also write *about* code. Take a moment to search
 Your Challenge this week is to create a tutorial that explains how a specific regular expression, or regex, functions by breaking down each part of the expression and describing what it does.
 
 Before you start, clone the [starter code](https://github.com/coding-boot-camp/bug-free-goggles).
+
+## User Story
+AS A web development student
+I WANT a tutorial explaining a specific regex
+SO THAT I can understand the search pattern the regex defines
